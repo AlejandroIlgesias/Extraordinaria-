@@ -11,4 +11,4 @@ if (unidades_caramelos%20)==0:
   total_caramelos=(unidades_caramelos*caramelos_manzana)-(0.7*(unidades_caramelos//20))
 elif (unidades_caramelos%20)!=0:
     total_caramelos=(unidades_caramelos*caramelos_manzana)-(0.7*(unidades_caramelos//20))
-
+total_pago=total_manzanas+total_caramelos
