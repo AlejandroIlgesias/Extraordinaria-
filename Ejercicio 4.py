@@ -15,3 +15,10 @@ def binario_a_decimal(numero_binario):
 		numero_decimal += int(digito_string) * 2 ** posicion
 
 	return numero_decimal
+def mayor(lista):
+    max = lista[0]
+    for x in lista:
+        if x > max:
+            max = x
+    return max    
+ 
