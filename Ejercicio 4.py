@@ -28,3 +28,6 @@ def menor(lista):
         if x < min:
             min = x
     return min
+lista=["AA55", "1010", "BEBE", "0101", "0FEA"]
+lista_bin=[]
+lista_dec=[]
