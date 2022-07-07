@@ -18,7 +18,7 @@ def valor_futuro(capital, tipo, periodo,o):#apartado 3,valor futuro
             print("Valor futuro cada año",res)
   print("El valor futuro es:", round(res,2))
   
-  def valor_actual(capital,tipo,periodo,o):#apartado 4 valor final
+def valor_actual(capital,tipo,periodo,o):#apartado 4 valor final
     res=0
     for t in range(periodo):
         if o==1:
@@ -28,3 +28,11 @@ def valor_futuro(capital, tipo, periodo,o):#apartado 3,valor futuro
             res=res+capital/(1+tipo)**(t+1)
             print("Valor actual cada año",res)
     print("El valor actual es:", round(res,2))
+    
+#crearemos otra condicional a si el capital está condicionado a ser anticipado o no 
+# (1 período más),introducido al llamar a la función vf() o  
+# va() (1 o 0).
+interes=2.5
+period=7
+param=0#Param será el parámetro dedicado a saber si el capital está condicionado
+
