@@ -6,3 +6,5 @@ def calcular(dollar_amount):
   return euros_value
 
 b=calcular(a)
+
+def valor_futuro(capital, tipo, periodo,o):#apartado 3,valor futuro
