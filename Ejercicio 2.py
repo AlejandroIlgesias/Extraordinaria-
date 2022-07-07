@@ -27,3 +27,4 @@ def valor_futuro(capital, tipo, periodo,o):#apartado 3,valor futuro
         else:
             res=res+capital/(1+tipo)**(t+1)
             print("Valor actual cada año",res)
+    print("El valor actual es:", round(res,2))
