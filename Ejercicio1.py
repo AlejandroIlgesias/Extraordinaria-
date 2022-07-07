@@ -7,4 +7,5 @@ if (unidades_manzanas%20)==0:
   total_manzanas=(unidades_manzanas*precio_manzana)-(0.7*(unidades_manzanas//20))
 else:
     total_manzanas=unidades_manzanas*precio_manzana
+if (unidades_caramelos%20)==0:
 
