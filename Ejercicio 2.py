@@ -9,3 +9,11 @@ b=calcular(a)
 
 def valor_futuro(capital, tipo, periodo,o):#apartado 3,valor futuro
   res=0
+  for t in range(periodo):
+        if o==1:
+            res = res+capital*(1+tipo)**(t+1)
+            print("Valor futuro cada año",res)
+        else:
+            res = res+capital*(1+tipo)**(t)
+            print("Valor futuro cada año",res)
+  print("El valor futuro es:", round(res,2))
