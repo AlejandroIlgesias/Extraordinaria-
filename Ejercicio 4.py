@@ -31,3 +31,19 @@ def menor(lista):
 lista=["AA55", "1010", "BEBE", "0101", "0FEA"]
 lista_bin=[]
 lista_dec=[]
+for e in lista:
+    conversion=hexadecimal_a_binario(e)
+    lista_bin.append(conversion)
+print(lista_bin)
+
+for j in lista_bin:
+    convert=binario_a_decimal(j)
+    lista_dec.append(convert)
+
+print(lista_dec)
+
+menor_lista=menor(lista_dec)
+mayor_lista=mayor(lista_dec)
+
+print("El menor es",menor_lista)
+print("El mayor es",mayor_lista)
