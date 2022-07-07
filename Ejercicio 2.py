@@ -35,4 +35,6 @@ def valor_actual(capital,tipo,periodo,o):#apartado 4 valor final
 interes=2.5
 period=7
 param=0#Param será el parámetro dedicado a saber si el capital está condicionado
+valor_actual(b,interes,period,param)
+valor_futuro(b,interes,period,param)
 
