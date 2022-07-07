@@ -22,3 +22,9 @@ def mayor(lista):
             max = x
     return max    
  
+def menor(lista):
+    min = lista[0]
+    for x in lista:
+        if x < min:
+            min = x
+    return min
