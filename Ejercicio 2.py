@@ -8,3 +8,4 @@ def calcular(dollar_amount):
 b=calcular(a)
 
 def valor_futuro(capital, tipo, periodo,o):#apartado 3,valor futuro
+  res=0
